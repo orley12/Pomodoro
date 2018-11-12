@@ -1,0 +1,108 @@
+/*@font-face {*/
+    /*font-family: Varela;*/
+    /*src: url('/fonts/VarelaRound-Regular.ttf');*/
+/*}*/
+
+* {
+    -fx-fill: #ffffff;
+    -fx-alignment: center;
+    /*-fx-font-family: 'Varela Round';*/
+}
+
+
+#container {
+    -fx-background: #35B55C;
+    -fx-pref-width: 500px;
+    -fx-padding: 75px;
+    -fx-spacing: 20px;
+}
+
+#title {
+    -fx-font-size: 31px;
+}
+
+#time {
+    -fx-content-display: center;
+    -fx-pref-width: 350px;
+    -fx-background-color: #202428;
+    -fx-font-size: 72px;
+    -fx-line-height: 80px ;
+    -fx-border-radius: 8px;
+    -fx-letter-spacing: 10px;
+}
+
+.buttons {
+    -fx-spacing: 10px;
+}
+
+.button {
+    -fx-border-radius: 6px;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: #ffffff;
+    -fx-background-color: none;
+    -fx-text-fill: #ffffff;
+    -fx-fill-width: true;
+    -fx-cursor: pointer;
+    -fx-padding: 10px,10px, 10px, 37px;
+    -fx-font-size: 20px;
+}
+
+.nested-action {
+    -fx-padding: 0px;
+}
+
+.pause {
+    visibility: hidden;
+}
+
+.playing .pause {
+    visibility: visible;
+}
+
+.playing .play {
+    visibility: hidden;
+}
+
+.focus {
+    -fx-background-color: #2D3339;
+}
+
+.break {
+    -fx-background-color: #3F8ABF;
+}
+
+.svg-container {
+    -fx-padding: 0, 0, 0, 17px;
+    -fx-alignment: center-left;
+}
+
+.restart.button {
+    -fx-padding: 10px, 10px, 10px, 43px;
+}
+
+.svg {
+    -fx-fill: #ffffff;
+    -fx-height: 15px;
+    -fx-alignment: left;
+}
+
+#message {
+    -fx-font-size: 16px;
+}
+
+.text-area {
+    -fx-pref-width: 300px;
+    -fx-pref-rows: 3;
+    -fx-border-radius: 6px;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: #ffffff;
+    -fx-font-size: 20px;
+    -fx-text-fill: #000000;
+}
+
+.pause .svg-container {
+    -fx-padding: 0,0,0,25px;
+    -fx-spacing: 5px;
+}
